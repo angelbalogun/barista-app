@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#root {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+li {
+  list-style: none;         /* No bullet points */
+  margin: 3px 10%;
+  background-color: #FFFDD0;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+/* Visually distinct correct/wrong answer feedback */
+.correct {
+  background-color: #b6e388 !important;   /* Soft green for correct */
+  color: #234d20;
+  border: 2px solid #234d20;
+  transition: background 0.3s;
+}
+
+.wrong {
+  background-color: #ffb3b3 !important;   /* Soft red for wrong */
+  color: #7a1f1f;
+  border: 2px solid #7a1f1f;
+  transition: background 0.3s;
+}
+
+/* Make answer-space always visible and styled */
+.answer-space {
+  background-color: #f5e6c8;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  min-width: 100px;
+  min-height: 32px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.mini-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+  width: 250px;
+}
+
+.mini-header {
+  height: 25px;
+  padding: 10px 0;
+  background-color: rgb(226, 195, 147);
+  text-align: center;
+  border-radius: 10px;
+  width: 93%;
+  margin: 0;
+}
+
+.button {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: rgba(138, 98, 12, 0.942);
+}
+
+.title-container {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.drink-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  font-family: poppins, sans-serif;
+  font-size: 3.8em;
+  color: rgb(140, 125, 94);
+  display: inline-block;
+  margin-bottom: 0;
+}
