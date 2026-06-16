@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: white;
-  color: black;
+  background-color: rgb(66, 31, 19);
+  color: rgb(250, 210, 201);
 }
 
 li {
   list-style: none;         /* No bullet points */
   margin: 3px 10%;
-  background-color: #FFFDD0;
+  background-color: #8b4128;
   border-radius: 15px;
   padding: 5px 10px;
 }
@@ -34,7 +34,7 @@ li {
 
 /* Make answer-space always visible and styled */
 .answer-space {
-  background-color: #f5e6c8;
+  background-color: #8b4128;
   padding: 10px;
   border-radius: 15px;
   margin-bottom: 20px;
@@ -73,7 +73,7 @@ li {
 .mini-header {
   height: 25px;
   padding: 10px 0;
-  background-color: rgb(226, 195, 147);
+  background-color: #8b4128;
   text-align: center;
   border-radius: 10px;
   width: 93%;
@@ -90,7 +90,7 @@ li {
 }
 
 .title-container {
-  text-align: left;
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -103,8 +103,8 @@ li {
 
 .title {
   font-family: poppins, sans-serif;
-  font-size: 3.8em;
-  color: rgb(140, 125, 94);
+  font-size: 4em;
+  color: rgb(230, 201, 143);
   display: inline-block;
   margin-bottom: 0;
 }
